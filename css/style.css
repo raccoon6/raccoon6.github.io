@@ -1,0 +1,53 @@
+*{
+	/*border: 1px solid green*/
+}
+
+
+html {
+	font-family: 'Inconsolata', monospace;
+	/*font-family: 'Patrick Hand', cursive;*/
+
+
+
+
+}
+
+
+body {
+	padding-bottom: 60px;
+	/*font-size: 22px;*/
+}
+.container	
+{
+	max-width: 900px;
+	margin: 0 auto;
+}
+.col-4	
+{
+	width: 30%; 
+	float: left;
+	display: inline-block;
+	margin-right: 25px;
+}
+
+nav {
+	margin-bottom: 25px;
+	text-align: center;
+	/*margin-top: 20px;*/
+	border-bottom: 1px solid #efefef;
+}
+
+a img:hover {
+	opacity: 0.8;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+	text-decoration: underline;
+}
+
